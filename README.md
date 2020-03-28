@@ -24,8 +24,8 @@ Other supported browsers will have their own drivers available. Links to some of
 Example:
 
 ```
-browser = webdriver.Firefox() // opens a new Firefox browser
-browser.get('http://seleniumhq.org/') //load the page at the given URL
+browser = webdriver.Firefox()             // opens a new Firefox browser
+browser.get('http://seleniumhq.org/')     //load the page at the given URL
 ```
 
 
@@ -33,4 +33,14 @@ browser.get('http://seleniumhq.org/') //load the page at the given URL
 * pollURL = url where the poll is located
 * targetPosition = the order of the target. For example, if one is the 2nd on the list, this attribute should be 2.
 * credentials = The Globo credentials to login.
-* webDriverPath = the path to the browser webdriver. If you want to use another browser, change line 46 (browser = webdriver.browserYouWant() ).
+* webDriverPath = the path to the browser webdriver in your computer (Any of those supported browsers). If you want to use another browser, change line 8 in config.json, line 46 in voter.py. 
+
+Example: 
+config.json =
+```
+8 "webDriverPath": "C:/Users/estev/Desktop/Guardar/geckodriver.exe"
+```
+voter.py = 
+```
+46 driver = webdriver.Firefox(executable_path=arguments['webDriverPath'])
+```
