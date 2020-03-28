@@ -5,7 +5,7 @@ Automatic voter for Big Brother Brasil.
 
 ## Requirements
 * Python
-* Microsoft Edge
+* Any Browser
 
 ## Usage
 * Set the `config.json` file and run `py voter.py`.
