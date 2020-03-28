@@ -38,9 +38,9 @@ browser.get('http://seleniumhq.org/')     //load the page at the given URL
 Example: 
 config.json =
 ```
-8 "webDriverPath": "C:/Users/estev/Desktop/Guardar/geckodriver.exe"
+8 "webDriverPath": "C:/Users/Documents/Drivers/Firefox/geckodriver.exe"
 ```
 voter.py = 
 ```
-46 driver = webdriver.Firefox(executable_path=arguments['webDriverPath'])
+46 driver = webdriver.BrowserYouWant(executable_path=arguments['webDriverPath'])
 ```
