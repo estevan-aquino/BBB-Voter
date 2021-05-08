@@ -1,5 +1,5 @@
-# BBB-Voter
-Automatic voter for Big Brother Brasil.
+# BBB-Voter-2020 - DEPRECATED
+Automatic voter for Big Brother Brasil
 
 # Getting Started
 
